@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    tools:context="com.example.final_quiz_3.controller.controller.ConnectionActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/bienvenue"
+        android:textColor="@color/Goldendark"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:hint="@string/Username"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColorHint="@color/DarkGrey" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:hint="@string/Password"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:textColorHint="@color/DarkGrey" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/gradient"
+        android:onClick="registration"
+        android:text="@string/Inscrition"
+        android:textColor="@color/Goldendark"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="120dp"
+        android:background="@color/design_default_color_primary_dark"
+        android:onClick="connection"
+        android:text="@string/valider"
+        android:textColor="#FFF" />
+</LinearLayout>

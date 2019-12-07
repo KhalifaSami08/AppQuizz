@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Mon_Quiz</string>
+    <string name="bienvenue">Bienvenue \n \n Veuillez vous connectez </string>
+    <string name="Username">Nom d\'utilisateur : </string>
+    <string name="Password">Mot de Passe : </string>
+    <string name="Inscrition">Pas de compte ? \n Inscrivez-vous Ici?</string>
+    <string name="valider">Valider</string>
+
+    <string name="Choix_theme">Choisis un Thème :</string>
+    <string name="question">Question... ?</string>
+    <string name="inscription">Inscription</string>
+    <string name="nom">Nom :</string>
+    <string name="pr_nom">Prénom :</string>
+    <string name="adresse_e_mail">Adresse e-mail :</string>
+    <string name="num_ro_de_tel">Numéro de Tel :</string>
+    <string name="choississez_un_nom_d_utilisateur">Choississez un nom d\'utilisateur :</string>
+    <string name="choississez_un_mot_de_passe">Choississez un mot de Passe :</string>
+    <string name="quitter">Quitter</string>
+    <string name="preference_file_key">database_config</string>
+    <string name="is_first_launch">is_first_lauch</string>
+</resources>
